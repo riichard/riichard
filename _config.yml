@@ -1,0 +1,19 @@
+title:            Scribble
+description:      A jekyll theme. Because I scribble.
+url:              http://scribble.muan.co/
+signoff:          Mu-An
+disqus_shortname: muan
+facebook_appid:   604714799556697
+google_analytics: UA-21332781-7
+links: 
+  - name:         Blog
+    url:          http://muan.co
+  - name:         Email
+    url:          mailto:hello@muan.co
+  - name:         GitHub
+    url:          http://github.com/muan
+
+permalink:        pretty
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
