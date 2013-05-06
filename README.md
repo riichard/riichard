@@ -15,7 +15,6 @@ The theme is mobile optimised but I did not check browser compatibility. It look
 
 ### Get started
 
-
 1. [Fork the repository](https://github.com/muan/scribble/fork).
 2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble`
 3. `bundle install`
