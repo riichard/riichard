@@ -13,6 +13,7 @@ links:
   - name:         GitHub
     url:          http://github.com/muan
 
+pygments:         true
 permalink:        pretty
 markdown:         rdiscount
 rdiscount:
