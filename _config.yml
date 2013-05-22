@@ -6,6 +6,8 @@ disqus_shortname: muan
 facebook_appid:   604714799556697
 google_analytics: UA-21332781-7
 links: 
+  - name:         About
+    url:          /about
   - name:         Blog
     url:          http://muan.co
   - name:         Email
