@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scribble, the Jekyll theme
+title: Scribble, a Jekyll theme
 date: 2013-05-06 16:27:31
 disqus: y
 ---
