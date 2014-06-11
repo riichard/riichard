@@ -8,9 +8,9 @@ google_analytics:   # set tracking, remove from /javascripts/basic.js if unwante
 
 links:
   - name:         Home
-    url           /
+    url           http://riichard.com/
   - name:         About
-    url:          /about
+    url:          http://riichard.com/about
   - name:         Blog
     url:          http://riichard.com/
     external:     true
