@@ -1,22 +1,24 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
-url:              # Site url.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+title:              Richard A. Kraaijenhagen    
+description:        Founder of Owlin, vim user who's dreaming big about data.  
+url:                riichard.com
+signoff:            Richard A. Kraaijenhagen
+disqus_shortname:   # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:     256634181194241
+google_analytics:   # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
+  - name:         Home
+    url           /
   - name:         About
     url:          /about
   - name:         Blog
-    url:          http://muan.co
+    url:          http://riichard.com/
     external:     true
   - name:         Email
-    url:          mailto:hello@muan.co
+    url:          mailto: stdin@riichard.com
     external:     true
   - name:         GitHub
-    url:          http://github.com/muan
+    url:          http://github.com/riichard
     external:     true
 pygments:         true
 permalink:        pretty

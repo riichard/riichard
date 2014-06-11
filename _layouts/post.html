@@ -7,6 +7,7 @@
   <body>
     {% include header.html %}
     <div id='container'>
+      {% include branding.html %}
       {% include links.html %}
       {% include pages.html %}
       <div class="content">
@@ -25,9 +26,10 @@
         {% include share.html %}
       {% endif %}
 
-      {% if page.disqus == 'y' %}
-        {% include disqus.html %}
+      {% if page.comments == 'y' %}
+        {% include comments.html %}
       {% endif %}
+
       {% include links.html %}
     </div>
     {% include footer.html %}

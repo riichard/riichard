@@ -134,6 +134,12 @@ footer {
       height: 20px;
       overflow: hidden; }
 
+  #container .header {
+      width:598px;
+      margin:-30px -40px 0;
+      max-width:inherit;
+  }
+
 .content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
