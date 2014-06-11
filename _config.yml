@@ -7,8 +7,6 @@ facebook_appid:     256634181194241
 google_analytics:   # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
-  - name:         Home
-    url           http://riichard.com/
   - name:         About
     url:          http://riichard.com/about
   - name:         Blog
