@@ -79,6 +79,12 @@ footer {
       overflow: hidden;
     }
   }
+  .header {
+    @include box-sizing(border-box);
+    width:598px;
+    border:10px solid yellow;
+    margin:-30px -40px;
+  }
 }
 
 
