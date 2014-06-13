@@ -1,4 +1,6 @@
 <div class="block">
+  <img class="header" src="/images/fd.jpg" width="100%" />
+  <h1 class="name">{{ site.title }}</h1>
   {% for link in site.links %}
     <a target="{% if link.external %}_blank{% else %}_top{% endif %}" class="main" href="{{ link.url }}">{{ link.name }}</a>
   {% endfor %}
