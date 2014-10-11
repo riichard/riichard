@@ -3,3 +3,5 @@ _site/
 .ruby-version
 _drafts
 .DS_Store
+*.swp
+todo.md

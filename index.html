@@ -2,6 +2,7 @@
 layout: index
 ---
 
+<h1>Blog Posts</h1>
 <ul class="posts">
   {% for post in site.posts %}
   <li>
@@ -9,4 +10,42 @@ layout: index
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
+</ul>
+
+<br />
+<hr />
+<br />
+
+<h1>Highlighted Media</h1>
+<ul class="posts">
+
+    <li><span>19 Apr 2014</span> &raquo; <a
+        href="/images/owlinfdarticle.JPG">
+        Financiele Dagblad (Dutch financial times): 'We expect to
+        level with Bloomberg within 5 years'
+    </a></li>
+
+    <li><span>12 Dec 2012</span> &raquo; <a
+        href="http://mashable.com/2012/12/12/owlin-real-time-news/">
+        Mashable: Can This Startup Take on Bloomberg as a Real-Time 
+        News Service?
+    </a></li>
+
+    <li><span>12 Dec 2012</span> &raquo; <a
+        href="http://www.businessinsider.com/with-just-250000-in-the-bank-this-startup-says-it-can-deliver-news-15-minutes-faster-than-bloomberg-2012-12">
+        Business Insider: With Just $250,000 In The Bank, This 
+        Startup Says It Can Deliver News 15 Minutes Faster Than Bloomberg
+    </a></li>
+
+    <li><span>11 Dec 2012</span> &raquo; <a 
+        href="http://techcrunch.com/2012/12/11/owlin/">
+        TechCrunch: Real-Time News Alert Service Owlin Raises $250K 
+        To Outpace Bloomberg, Reuters For ‘Bottom Up’ News 
+    </a></li>
+
+    <li><span>13 Dec 2012</span> &raquo; <a 
+        href="http://rockstart.com/accelerator/2012/12/13/graduated-owlin-raises-seed-round-from-noro-ventures/">
+        Owlin raises €200.000 seed round from NoRo Venture Capital
+    </a></li>
+
 </ul>

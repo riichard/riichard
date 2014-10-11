@@ -88,6 +88,10 @@ footer {
   footer * {
     color: #797979; }
 
+footer img {
+    height:48px;
+}
+
 #container {
   *zoom: 1;
   -webkit-box-sizing: border-box;
