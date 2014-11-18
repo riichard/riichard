@@ -1,0 +1,86 @@
+figure {
+    margin: 0;
+    *zoom: 1;
+}
+
+figure:before,figure:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+figure:after {
+    clear: both;
+}
+
+figure img {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+figure a img {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: brightness(100%); /* Google Chrome & Safari 6+ */
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition-duration: .25s;
+    -moz-transition-duration: .25s;
+    -o-transition-duration: .25s;
+}
+
+figure a img:hover {
+    filter: none;
+    -webkit-filter: brightness(130%);
+    -webkit-transform: translate(0,-5px);
+    -moz-transform: translate(0,-5px);
+    -ms-transform: translate(0,-5px);
+    -o-transform: translate(0,-5px);
+    transform: translate(0,-5px);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+@media only screen and (min-width:62.5em) {
+    figure.half img {
+        float: left;
+        width: 49%;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+    figure.half figcaption {
+        clear: left;
+    }
+}
+
+@media only screen and (min-width:62.5em) {
+    figure.third img {
+        float: left;
+        width: 32.3%;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+    figure.third figcaption {
+        clear: left;
+    }
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+figcaption {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-style:italic;
+}
+#disqus_thread {
+    margin-top: 2em;
+}
