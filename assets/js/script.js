@@ -43,8 +43,8 @@ function tooltipInit() {
 }
 
 function postInit() {
-    // Set lead paragraphs
-    $('.post-body p:first-child').addClass('lead');
+    // Make tables bootstrap designed
+    $('table').addClass('table').addClass('table-bordered').addClass('table-striped');
 
     // Set feature image
     var featured = $('.featured-image').find('img').attr('src');
