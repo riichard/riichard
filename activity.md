@@ -1,8 +1,8 @@
---- 
-
-layout: page 
-title: Actvity 
-
+---
+layout: pageminimal
+title: Activity 
+permalink: /activity/index.html
+description: "This is a realtime public open page displaying my activity/productivity."
 ---
 
 This is a realtime public open page displaying my activity/productivity.
