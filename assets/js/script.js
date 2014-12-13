@@ -56,3 +56,55 @@ function postInit() {
 
 }(jQuery));
 
+/*      Slides       */
+$("a#slide").click(function(){
+    $("#sidebar,body,a#slide,#fade").addClass("slide")
+});
+
+$("#fade,#header,#posts-container").click(function(){
+    $("#sidebar,body,a#slide,#fade").removeClass("slide")
+});
+
+$("a#click-filter").click(function(){
+    $("#slide-filter").slideToggle("medium");
+    $("#slide-pages").slideOut("medium");
+});
+
+$("a#click-pages").click(function(){
+    $("#slide-pages").slideToggle("medium");
+    $("#slide-filter").slideOut("medium");
+});
+
+/*  jekyll search */
+$(document).ready(function() {
+    $('.search-field').simpleJekyllSearch({
+        jsonFile      : '{{ site.url }}/search.json',
+        searchResults : '.search-results',
+        template      : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+        noResults     : '<p>Nothing found.</p>'
+    });
+});
+
+(function( $, window, undefined ) {
+
+    var bs = {
+        close: $(".icon-remove-sign"),
+        searchform: $(".search-form"),
+        canvas: $("body"),
+        dothis: $('.dosearch')
+    };
+
+    bs.dothis.on('click', function() {
+        $('.search-wrapper').css({ display: "block" });
+        bs.searchform.toggleClass('active');
+        bs.searchform.find('input').focus();
+        bs.canvas.toggleClass('search-overlay');
+    });
+
+    bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+
+})( jQuery, window );
