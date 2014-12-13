@@ -1,5 +1,5 @@
 title:            Richard A. Kraaijenhagen 
-description:      'Data Scientist & Visualizer. Founder <a href="https://owlin.com/">Owlin</a>.'
+description:      'Data Scientist & Visualizer. Founder Owlin.'
 #logo:             omikron.png
 #disqus_shortname: hmfaysal
 
@@ -45,8 +45,8 @@ owner:
   dotfiles:       http://github.com/riichard/dotfiles 
   spotify:        riichard
   partner:        http://fiberopticnow.github.io/ 
-  flickr:          
-  tumblr:         
+  #flickr:          
+  #tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   #google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -95,8 +95,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/'
-  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
+  siteurl: 'http://riichard.com/'
+  relativeLinks: 'http://riichard.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:
