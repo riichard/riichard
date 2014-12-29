@@ -22,48 +22,42 @@
     <!--</nav>-->
 <!--</aside>-->
 
-{% if page.imagefeature %}<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">{% if page.imagecredit %}<span class="image-credit">Photo Credit: <a href="{{ page.imagecreditlink }}" target="_blank">{{ page.imagecredit }}</a></span>{% endif %}
+{% if page.imagefeature %}
+    <header id="masthead" 
+        class="blog-background overlay align-center align-middle animated from-bottom"  
+        style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" 
+        itemscope 
+        itemtype="http://schema.org/Organization">
 {% else %}
-<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
+    <header id="masthead" 
+        class="blog-background overlay align-center align-middle animated from-bottom"  
+        style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" 
+        itemscope 
+        itemtype="http://schema.org/Organization">
 {% endif %}
+
 {% if site.search %}
     <button class="menu-button animated fade dosearch">
         <i class="icon-search"></i>
     </button>
 {% endif %}
-{% if page.headline %}
-    <div class="inner">
-        <div class="container">
-            <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
 
-                {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
-
-            <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
-            </h1>
-                
-            </a>
-            <h2 class="blog-description light bordered bordered-top" itemprop="description">
-                {{ page.headline }}
-            </h2>
-        </div>
+<div class="inner">
+    <div class="container">
+        <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
+            {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
+        <h1 class="blog-title light" itemprop="name">
+            {{ site.title }}
+        </h1>
+            
+        </a>
+        <h2 class="blog-description light bordered bordered-top" itemprop="description">
+            {{ site.description }}
+        </h2>
     </div>
-    {% else %}
-    <div class="inner">
-        <div class="container">
-            <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
+</div>
 
-                {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
-
-            <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
-            </h1>
-                
-            </a>
-        </div>
-    </div>
-    {% endif %}
-    {% if site.animated_fins and site.triangleheader %}
+{% if site.animated_fins and site.triangleheader %}
     <div class="decor-wrapper">
         <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
             <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba({{ site.fin_color }}, .1)"></path>
@@ -81,16 +75,14 @@
 
         </svg>
     </div>
-    {% else %}
+{% else %}
     {% if site.triangleheader %}
-    <div class="decor-wrapper">
-        <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
-
-            <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
-
-        </svg>
-    </div>
+        <div class="decor-wrapper">
+            <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
+                <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
+            </svg>
+        </div>
     {% endif %}
-    {% endif %}
+{% endif %}
 </header>

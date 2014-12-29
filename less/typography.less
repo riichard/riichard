@@ -115,25 +115,9 @@ input[type="color"],
   -webkit-appearance: none;
   box-shadow: none;
   text-shadow: none !important;
-}
-select:focus,
-textarea:focus,
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="time"]:focus,
-input[type="week"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="color"]:focus,
-.uneditable-input:focus {
-  outline: none;
+  :focus {
+      outline: none;
+  }
 }
 select {
   line-height: 24px;
@@ -152,25 +136,26 @@ input[type=number]::-webkit-outer-spin-button {
   display: inline-block;
   position: relative;
   margin-bottom: 24px;
-}
-.fancy-select select {
-  margin-bottom: 0;
-  width: 100%;
-  min-width: 180px;
-}
-.fancy-select:after {
-  display: block;
-  position: absolute;
-  content: "\f107";
-  font-family: 'FontAwesome';
-  width: 1em;
-  height: 1em;
-  line-height: 1em;
-  text-align: center;
-  z-index: 1;
-  top: 50%;
-  right: 0.5em;
-  margin-top: -0.5em;
+
+  select {
+    margin-bottom: 0;
+    width: 100%;
+    min-width: 180px;
+  }
+  :after {
+    display: block;
+    position: absolute;
+    content: "\f107";
+    font-family: 'FontAwesome';
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    z-index: 1;
+    top: 50%;
+    right: 0.5em;
+    margin-top: -0.5em;
+  }
 }
 /* - Figures - */
 figure {
@@ -194,9 +179,7 @@ q {
   word-break: normal;
   border: 0;
 }
-pre {
-  
-}
+
 /* - Font weight classes - */
 .black {
   font-weight: bolder !important;
@@ -213,13 +196,14 @@ pre {
 .lighter {
   font-weight: lighter !important;
 }
+
 /* - Font size classes - */
 .small {
   font-size: 14px;
   line-height: 24px;
 }
 .super {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1;
 }
@@ -233,6 +217,7 @@ pre {
   text-align: center;
   line-height: 1;
 }
+
 /* - Text aligns classes - */
 .text-left {
   text-align: left !important;
@@ -243,6 +228,7 @@ pre {
 .text-center {
   text-align: center !important;
 }
+
 /* - Text transform classes - */
 .text-caps {
   text-transform: uppercase !important;
@@ -250,6 +236,7 @@ pre {
 .text-italic {
   font-style: italic;
 }
+
 /* Responsive typography */
 @media (max-width: 767px) {
   h1 {
