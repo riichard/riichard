@@ -10,11 +10,11 @@
         <!--<li>{% if link.external %}-->
             <!--<a href="{{ link.url }}">{{ link.title }}</a>-->
             <!--{% else %}-->
-                <!--<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>-->
+                <!--<a href="{{ link.url }}">{{ link.title }}</a>-->
             <!--{% endif %} </li>-->
     <!--{% endfor %}            -->
        <!--<li>-->
-            <!--<a href="{{ site.url }}/feed.xml" title="Atom/RSS feed">-->
+            <!--<a href="/feed.xml" title="Atom/RSS feed">-->
                 <!--<i class="icon-rss"></i> -->
                 <!--Feed-->
             <!--</a>-->
@@ -25,13 +25,13 @@
 {% if page.imagefeature %}
     <header id="masthead" 
         class="blog-background overlay align-center align-middle animated from-bottom"  
-        style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" 
+        style="background-image: url(/images/{{ page.imagefeature }})" 
         itemscope 
         itemtype="http://schema.org/Organization">
 {% else %}
     <header id="masthead" 
         class="blog-background overlay align-center align-middle animated from-bottom"  
-        style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" 
+        style="background-image: url(/images/{{ site.default_bg }})" 
         itemscope 
         itemtype="http://schema.org/Organization">
 {% endif %}
@@ -45,7 +45,7 @@
 <div class="inner">
     <div class="container">
         <a class="brand light" href="/" role="banner" itemprop="url">
-            {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
+            {% if site.logo %}<img itemprop="logo" src="/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
         <h1 class="blog-title light" itemprop="name">
             {{ site.title }}
         </h1>
