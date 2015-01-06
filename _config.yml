@@ -1,5 +1,5 @@
 title:            Richard A. Kraaijenhagen 
-description:      'Data Scientist & Visualizer. Founder Owlin.'
+description:      'Full Stack Developer & Data Scientist/Visualizer. Founder Owlin.'
 #logo:             omikron.png
 #disqus_shortname: hmfaysal
 
@@ -32,7 +32,7 @@ owner:
   avatar:         richard.glasses.jpg
   email:          stdin@riichard.com 
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Data Scientist & Visualizer. Founder Owlin.  
+  description:    Full Stack Developer & Data Scientist/Visualizer. Founder Owlin.
   # Social networking links used in footer. Update and remove as you like.
   twitter:        riichard 
   facebook:       richard.kraayenhagen 
