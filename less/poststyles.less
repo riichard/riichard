@@ -1,6 +1,7 @@
 /* ----------- */
 /* POST STYLES */
 /* ----------- */
+
 /* - Post title - */
 .post-title {
     margin-top: 0;
@@ -11,23 +12,21 @@
 .post-info {
     margin-bottom: 24px;
 }
+
 /* -- Post Tags -- */
 /* -  Post Body - */
 .post-body {
-    padding-bottom: 72px;
-    margin-bottom: 72px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    img {
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+    a {
+        border-bottom: 1px dotted;
+    }
 }
-.post-template .post-body {
-    padding-bottom: 36px;
-    margin-bottom: 24px;
-}
-.post-body img {
-    max-width: 100%;
-    margin-bottom: 24px;
-}
-.post-body a {
-    border-bottom: 1px dotted;
-}
+
 .page-body img {
     max-width: 100%;
     margin-bottom: 10px;
@@ -35,29 +34,34 @@
     margin-top: 10px;
     border-radius: 2px;
 }
+
 /* - Post Share - */
 .post-share {
     margin-bottom: 48px;
 }
+
 /* - Post Author - */
 .post-author {
     margin-bottom: 72px;
+    h4 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+    }
 }
-.post-author h4 {
-    margin-top: 0;
-    margin-bottom: 12px;
-    padding-bottom: 12px;
-}
+
 /* - Post Avatar - */
 .post-avatar {
     max-width: 150px;
     margin: 0 auto 12px;
 }
+
 /* -  Pagination - */
 .pagination {
     display: block;
     position: relative;
 }
+
 .older-posts,
 .newer-posts {
     display: block;
@@ -70,6 +74,7 @@
 .newer-posts {
     left: 0;
 }
+
 @media (max-width: 480px) {
     .older-posts,
     .newer-posts {
