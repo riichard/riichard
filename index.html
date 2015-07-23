@@ -129,42 +129,34 @@ tags: [test]
                     <div class="post-body bordered-bottom">
 
                         <div class="row">
-                            {% if post.thumbnail %}
-                                <div class="col-md-3">
-                                    <img src="{{ post.thumbnail }}" />
-                                </div>
-                                <div class="col-md-9">
-                            {% else %}
-                                <div class="col-md-12">
-                            {% endif %}
+                            <div class="col-md-12">
 
                                 {% assign excerptsize = post.excerpt | number_of_words %}
+                                <p>
+
+                                    {% if post.thumbnail %}
+                                        <img src="{{ post.thumbnail }}" 
+                                        style="float:left;" />
+                                    {% endif %}
+
                                 {% if excerptsize <= 100 and excerptsize >= 50 %}
-                                    <p>{{ post.excerpt | strip_html }}&hellip;</p>
+                                    {{ post.excerpt | strip_html }}
                                 {% else %}
-                                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;
-                                    <a href="{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}"> read more...  </a>
-                                    </p>
+                                    {{ post.content | strip_html | truncatewords:100 }}...
                                 {% endif %}
+                                    <a href="{{ post.url }}"
+                                        data-toggle="tooltip" 
+                                        title="{{ post.description | strip_html }}"
+                                        >read more</a>
+                                </p>
 
                             </div>
-                        </div>
-
-                        <div class="text-center">
-                        {% if post.description %}
-                        <a href="{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
-                            <i class="icon-link"></i> read more...
-                        </a>
-                        {% else %}
-                        <a href="{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link btn btn-danger btn-large">
-                            <i class="icon-link"></i> read more...
-                        </a>
-                        {% endif %}
                         </div>
                     </div>
                 </article>
             </div>
             {% endif %}
+
     {% endfor %}
 {% if paginator.total_pages > 1 %}
         <div class="row text-center text-caps">
