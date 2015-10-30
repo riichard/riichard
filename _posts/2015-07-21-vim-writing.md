@@ -4,7 +4,6 @@ title: VIM, the magic wand for writing text
 date: 2015-07-26 08:00:00 
 tags: [ vim ]
 thumbnail: /images/vim/togglelists.gif
-draft: true
 
 ---
 
