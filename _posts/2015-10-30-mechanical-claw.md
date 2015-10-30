@@ -45,6 +45,8 @@ NodeJS using the [johnny-five library] to run in a browser or to control the mac
 different computer. And uses a websockets protocol in order to have direct response on the machine,
 and binds the keyboard arrow keys keyup/keydown to toggle power activation.
 
+Watch the source code here: https://github.com/riichard/claw
+
 [johnny-five library]: https://github.com/rwaldron/johnny-five
 
 ### Final results 
