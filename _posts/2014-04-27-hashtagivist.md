@@ -15,6 +15,7 @@ Twitter.
 <iframe src="https://vine.co/v/MnpHew2gPYV/embed/postcard" 
 frameborder="0"></iframe><script
 src="https://platform.vine.co/static/scripts/embed.js"></script>
+</div>
 
 # Hashtagivist
 
