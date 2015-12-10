@@ -1,0 +1,3 @@
+[submodule "images/wifipopup"]
+	path = images/wifipopup
+	url = https://github.com/riichard/no-wifi-popup.git
