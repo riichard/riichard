@@ -6,7 +6,7 @@ tags: [ github, gitslides, jekyll, presentation, focus, keynote, markdown ]
 
 ---
 
-<div class="col-md-6 pull-right">
+<div class="col-xs-12 col-md-6 pull-right">
     <div class="thumbnail">
         <img src="../images/powerpoint.gif" />
         <div class="caption">
