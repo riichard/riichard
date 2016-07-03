@@ -1,5 +1,5 @@
 ---
-title: Focus on the content of your presentation using markdown and gitslides
+title: Introducing Git Slides, a rapid presentation builder tool 
 date: 2015-12-07 08:00:00 
 layout: post 
 tags: [ github, gitslides, jekyll, presentation, focus, keynote, markdown ]
