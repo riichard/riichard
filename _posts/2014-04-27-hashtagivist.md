@@ -48,6 +48,6 @@ raise awareness to topics that usually don't get covered.
 
 Hashtagivist concept was awarded by Twitter and got [covered by The Next Web].
 
-![Hashtagivist on stage with Twitter](images/hashtagivistwithtwitter.jpg)
+![Hashtagivist on stage with Twitter](images/hashtagivist.gif)
 
 [covered by The Next Web]: http://thenextweb.com/dd/2014/04/25/14-amazing-hacks-tnw-conference-kings-code-hack-battle/
