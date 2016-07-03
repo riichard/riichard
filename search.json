@@ -3,11 +3,18 @@
 [
 	{% for post in site.posts %}
 		{
-		  "title"      : "{{ post.title | escape }}",
-		  "category"   : "{{ post.category }}",
-		  "url"        : "{{ site.url }}{{ post.url }}",
-		  "date"       : "{{ post.date }}",
-		  "shortdate"  : "{{ post.date | date: '%B %d, %Y' }}"
+            "id"         : "{{ post.id }}",
+            "title"      : "{{ post.title | escape }}",
+            "category"   : "{{ post.category }}",
+            "tags"       : "{{ post.tags }}",
+            "url"        : "{{ site.url }}{{ post.url }}",
+            "path"       : "{{ post.path }}",
+            "next"       : "{{ post.next.path }}",
+            "previous"   : "{{ post.previous.path }}",
+            "date"       : "{{ post.date }}",
+            "shortdate"  : "{{ post.date | date : '%B %d, %Y' }}",
+            "content"    : "{{ post.content | escape | strip_newlines }}",
+            "excerpt"    : "{{ post.excerpt | escape | strip_newlines }}"
 		} {% if forloop.last %}{% else %},{% endif %}
 	{% endfor %}
 ]
