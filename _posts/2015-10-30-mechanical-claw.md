@@ -13,11 +13,9 @@ This in the end would allow a webcam to be connected, and make the claw to be
 remotely controlled, with multiple cameras in the front, top of the claw and
 sideways for a unique perspective.
 
-<center>
-<iframe src="https://vine.co/v/hlIMBpIzHKr/embed/postcard" width="600"
-height="600" frameborder="0"></iframe><script
-src="https://platform.vine.co/static/scripts/embed.js"></script>
-</center>
+<div class="embed-responsive embed-responsive-1by1">
+<iframe class="embed-responsive-item" src="https://vine.co/v/hlIMBpIzHKr/embed/simple"></iframe>
+</div>
 
 ### The hardware 
 
@@ -32,11 +30,11 @@ weightless).
 - Whether you reached the top of the wire.
 - Reaching the end of the YZ axis.
 
-<center>
-<iframe src="https://vine.co/v/eYlBrFTbDPV/embed/postcard" width="600"
-height="600" frameborder="0"></iframe><script
+<div class="embed-responsive embed-responsive-1by1">
+<iframe class="embed-responsive-item" src="https://vine.co/v/eYlBrFTbDPV/embed/simple"
+frameborder="0"></iframe><script
 src="https://platform.vine.co/static/scripts/embed.js"></script>
-</center>
+</div>
 
 ### Source code
 
