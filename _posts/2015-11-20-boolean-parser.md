@@ -27,8 +27,7 @@ This tool is great when constructing complex search filters that need to be
 matched with text. Creating search tools that need to show up more refined
 results than that would be possible with a simple `AND` combination.
 
-
-<a href="https://github.com/riichard/boolean-parser-js" class="btn btn-default">View Boolean-Parser on GitHub</a>
+{% include github.html repo="boolean-parser-js" %}
 
 #### Examples:
 
