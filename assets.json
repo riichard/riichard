@@ -1,0 +1,11 @@
+---
+---
+[
+	{% for file in site.static_files %}
+		{
+            "path"          : "{{ file.path }}",
+            "modified_name" : "{{ file.modified_time }}",
+            "extname"       : "{{ file.extname }}"
+		} {% if forloop.last %}{% else %},{% endif %}
+	{% endfor %}
+]
