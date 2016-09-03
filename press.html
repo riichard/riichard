@@ -4,13 +4,11 @@ title: Press
 
 ---
 
+<div class="press">
 
-<h1 class="text-center">Press</h1>
+<h2 class="text-center">Read more about my work on</h2>
 
-
-<h2 class="text-center">Also read about my work on</h2>
-
-<ul class="press">
+<ul class="logos">
 {% for press in site.data.press %}
     <li>
         <a href="{{ press.url }}">
@@ -20,4 +18,26 @@ title: Press
         </a>
     </li>
 {% endfor %}
+    <div class="clear"></div>
 </ul>
+
+<div class="quote">
+    "The child prodigies of our country"
+    <footer>
+        <a
+            href="http://www.mt.nl/332/63776/business/de-wonderkinderen-van-ons-land.html">
+            De wonderkinderen van ons land - 25 onder 25 - Sprout.nl
+        </a>
+    </footer>
+</div>
+
+<div class="clear"></div>
+
+<hr />
+
+<div class="contact text-center">
+    For PR, please contact <a
+        href="mailto:press@riichard.com">press@riichard.com</a>.
+</div>
+
+</div>

@@ -76,19 +76,18 @@
         </ul>
 
             <div>
-                <a href="/about/">{{ site.owner.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.
+                <a href="/about/">{{ site.owner.name }}</a> &copy; {{ site.time | date: '%Y' }} &#8210; All rights reserved.
             </div>
             <ul class="menu-items">
                 {% for link in site.links %}
                 <li>
                     {% if link.external %}
-                        <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
+                        <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>
                     {% else %}
-                        <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
-                    {% endif %} 
+                        <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>
+                    {% endif %}
                 </li>
                 {% endfor %}
-                <li><a href="/feed.xml" title="RSS feed">RSS Feed</a></li>
             </ul>
             <div>
                 Drop me an email if you think I can help out: <a href="mailto:stdin@riichard.com">stdin@riichard.com</a>
