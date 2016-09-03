@@ -1,0 +1,54 @@
+- title: Real-Time News Alert Service Owlin Raises $250K To Outpace Bloomberg, Reuters For ‘Bottom Up’ News 
+  logo: images/press/tc.png
+  name: TechCrunch
+  url: http://techcrunch.com/2012/12/11/owlin/ 
+- title: Nieuwsjagers met 2 miljoen bronnen 
+  logo: images/press/volkskrant.jpg
+  name: Volkskrant
+  url: static/VK2.02.2016.pdf
+- title: Financieele dagblad 
+  name: Financieele Dagblad
+  logo: images/press/fd.png
+  url: images/fd.jpg 
+- title: Deze Amsterdamse start-up is sneller dan Bloomberg (zeggen ze zelf) 
+  name: NRC 
+  logo: images/press/nrc.png
+  url: https://www.nrc.nl/nieuws/2014/11/03/deze-utrechtse-start-up-is-sneller-dan-bloomberg-zeggen-ze-zelf-a1499258 
+- title: Who Will Be Next To Invest In The Internet Of Things? KPMG Startup Trends Index Can Help Provide Answers
+  name: Yahoo Finance
+  logo: images/press/yahoofinance.png
+  url: https://finance.yahoo.com/news/next-invest-internet-things-kpmg-140700530.html
+- title: Can This Startup Take on Bloomberg as a Real-Time News Service?
+  name: Mashable
+  url: http://mashable.com/2012/12/12/owlin-real-time-news/
+  logo: images/press/mashable.png
+- title: Startup Owlin slaat persbureaus over 
+  name: Nu.nl
+  logo: images/press/nu.jpg
+  url: http://www.nu.nl/nuzakelijk-overig/2979687/startup-owlin-slaat-persbureaus.html
+- name: Business Insider
+  logo: images/press/businessinsider.png
+  title: With Just $250,000 In The Bank, This Startup Says It Can Deliver News 15 Minutes Faster Than Bloomberg
+  url: http://www.businessinsider.com/with-just-250000-in-the-bank-this-startup-says-it-can-deliver-news-15-minutes-faster-than-bloomberg-2012-12?IR=T
+- name: Wall Street Journal
+  logo: images/press/wsj.png
+  title: Netherlands' Owlin Seeded With $250K for News Dashboard
+  url: http://www.wsj.com/articles/DJFVW00020121214e8ceu18bf?mod=undefined
+- name: The Next Web
+  logo: images/press/tnw.jpg
+  title: Rockstart-backed Owlin lands $250k for real-time news analysis and notifications
+  url: http://thenextweb.com/insider/2012/12/11/rockstart-backed-owlin-lands-250k-for-real-time-news-analysis-and-notifications/
+- name: Elsevier
+  url: http://www.elsevier.nl/economie/article/2016/02/extra-talent-kunnen-we-continu-gebruiken-2756973W/
+  logo: images/press/elsevier.jpg
+  title: ‘Extra talent kunnen we continu gebruiken’ 
+- name: ING World
+  title: Breaking the news
+  logo: images/press/ing.png
+  url: https://ingworld.ing.com/en/2016-2Q/4-ing-labs?utm_source=fbinggrp&utm_medium=social&utm_campaign=q2
+- name: Emerce
+  logo: images/press/emerce.jpg
+  title: Razendsnelle nieuwsmonitor geeft financiële sector informatievoorsprong
+  url: http://www.emerce.nl/interviews/razendsnelle-nieuwsmonitor-geeft-financile-sector-informatievoorsprong
+
+

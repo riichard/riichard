@@ -1,0 +1,23 @@
+---
+layout: home
+title: Press
+
+---
+
+
+<h1 class="text-center">Press</h1>
+
+
+<h2 class="text-center">Also read about my work on</h2>
+
+<ul class="press">
+{% for press in site.data.press %}
+    <li>
+        <a href="{{ press.url }}">
+            <img 
+            src="{{ press.logo }}" 
+            alt="{{ press.name }}" />
+        </a>
+    </li>
+{% endfor %}
+</ul>
