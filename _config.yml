@@ -43,7 +43,6 @@ owner:
   foursquare:     riichard
   dotfiles:       http://github.com/riichard/dotfiles 
   #spotify:        riichard
-  partner:        http://fiberopticnow.github.io/ 
   # For Google Authorship https://plus.google.com/authorship
   #google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -61,6 +60,9 @@ links:
     external: false
   - title: Press
     url: /press.html
+    external: false
+  - title: GPG
+    url: /gpg
     external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
