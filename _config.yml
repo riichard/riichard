@@ -93,7 +93,6 @@ kramdown:
 prose:
   rooturl: '_posts'
   siteurl: 'http://riichard.com/'
-  relativeLinks: 'http://riichard.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:

@@ -81,7 +81,7 @@ $("a#click-pages").click(function(){
 /*  jekyll search */
 $(document).ready(function() {
     $('.search-field').simpleJekyllSearch({
-        jsonFile      : site_url+'/search.json',
+        jsonFile      : site_url+'/bower_components/jekyll-rest-api/posts.json',
         searchResults : '.search-results',
         template      : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
         noResults     : '<p>Nothing found.</p>'
