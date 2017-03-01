@@ -1,0 +1,31 @@
+{
+  "name": "riichard.com",
+  "description": "Personal blog",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Richard Kraaijenhagen"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "blog",
+    "personal",
+    "website",
+    "jekyll",
+    "theme"
+  ],
+  "homepage": "http://riichard.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jekyll-rest-api": "*",
+    "jquery": "1.9.1 - 2",
+    "less": "~2.5.1",
+    "bootstrap": "~3.3.5"
+  }
+}
