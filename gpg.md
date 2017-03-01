@@ -1,8 +1,11 @@
 ---
 layout: page
-title: GPG 
+title: GPG Keys
 ---
 
+You can use these keys and fingerprints to verify my authenticity and send me
+encrypted files/texts. Please use secure@riichard.com for additional layers of
+security. 
 
 ### Fingerprint
 ```
