@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/riichard
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://riichard.com
+  * I am riichard (https://keybase.io/riichard) on keybase.
+  * I have a public key with fingerprint E087 99AA 5747 2494 80C2  EF7D 1BD9 5BD9 E184 74D1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d177abfcef05d7301e2e4c016e4c5d39cff2a76f36e5e22c44c061cce3d724860a",
+            "fingerprint": "e08799aa5747249480c2ef7d1bd95bd9e18474d1",
+            "host": "keybase.io",
+            "key_id": "1bd95bd9e18474d1",
+            "kid": "0101d177abfcef05d7301e2e4c016e4c5d39cff2a76f36e5e22c44c061cce3d724860a",
+            "uid": "f80124193bc95aca338c6dd7fa847b19",
+            "username": "riichard"
+        },
+        "service": {
+            "hostname": "riichard.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488543173,
+    "expire_in": 157680000,
+    "prev": "5a42670bbf4d785ec1e60c5b9aecaaef01cb9bcc4c423900d25cf1560db6a343",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkm1MHEUYx+9OWttrsZCUwyCEutHTGkr3fW+PGsUiHkQ4XgyhhXDdnZ2F5eX2
+2FuuvEcK7aUabW2lYFvS+wCtoqUoNYHTEks1KbZVjhBa1Cpc0qKlSCpSENG6R/SL
+8aOTzEzmmd///zzzZA6HP6Qz6B+bKJiYalED+is/8br8gSJ9HcLLQg1irUPK4OoG
+ywXoVh1lkoBYERRDMQFjGI4XARRRSmAIFIM4JAGK0dpKCQQLRBHnGFokaEhBHAek
+dkljAEBCYHDSQqMckoCIkrMYKi5FcqqaLUQtDMtyHMWQGsKSFhTgUGQEjBdYSpsQ
+s5AMKWCasER2hxRacTznhomSrMW0g2O1vP/g/+e6q1btRAuK4STGEjxgKQ5wBGEB
+tCAwIqfl5TE2BLqh4uQqoEYrkgRKOEVAGhIQLeqRAAw1NvSSfxGJQK7QtC5FVmUg
+l2s3JarqcltDSrXGFUL3Qt7xt4mDl5yC1kdN4YGKW5KdiBXTSKBKIVeMtFgoksAY
+IgGB1S5JgQ4pRFAMbUG1EcoDPZolxZE4zaD5PC+SAmOhIMAgjQKKZzkIOE7rFwZ4
+lgeABCROsCgq4BQQMYpGBZ7mCJJAQu+qdMqIVUulcsWap1sqdnJqlQKRBuNBQ2yY
+Tm/QrV1jCP0wnXF9xD/fjp/a9KAit69qmV6aTPK0Z1yzDY4dQ+621Z0+19VkW85Y
+c2JL56Xdqrj8+/ov/SvlWdVGtmfrIL35bUMpkUkpPeGmO9t7e80fmLPCXnm+7ZN9
+6elEY8r1UsNHUX5s4fjE5/jXKdnNC9tuNf2cpCtwN7xzgNwXN+P//sJeu5hsy1PM
+6cFv+dHRB8aOuUayfwYPHDU1R2RuHHeZhv3ETgVUpXmfjN2W2xp8w+EJJu/MajIP
+2sMykPq3Hj9zUYDB/h8vhptXsm+duKTvfqkoKi9r48N72vKP3Cl74tVK05a2Ux++
+mR21NLa/dFdg/LPOPyrSvlprP7a9p/1FX/xhQYdOlsX6vK5vzgR+aXj31NyzOzZw
+I+1dSYUxfbbUyNZ5+/G6hI6n+AsxtanR7dU3Ym3T0+5NV2M21C+Ov3cl54jge9r+
+8vSf532FvYHoeCQwcGPq3vsDruShpKE4Y8fiSGn/zLqItvsceW9lmEBzbf1d8wWV
+J1dm+w5mgKxu49Rc4Ws34xDfr+bzr5tmR++aDpGIp6cl1Ru5WXaEX/YWBad6o/ec
+HPLfbk/YeggcvSrf198uGFk4J6d9POw9i0U+mnM2KM8eyPw09Tf05jO1+pa01p6q
+06687k6H+RH7fG1G8/junLHylsS+pBe+eO4H32Tjuvr4a96lxcSamcv2XTtI91DK
+d9b9RXnX8/8C
+=5jug
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/riichard
+
+==================================================================
+
