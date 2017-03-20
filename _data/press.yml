@@ -1,19 +1,19 @@
-- title: Real-Time News Alert Service Owlin Raises $250K To Outpace Bloomberg, Reuters For ‘Bottom Up’ News 
+- title: Real-Time News Alert Service Owlin Raises $250K To Outpace Bloomberg, Reuters For ‘Bottom Up’ News
   logo: images/press/tc.png
   name: TechCrunch
-  url: http://techcrunch.com/2012/12/11/owlin/ 
-- title: Nieuwsjagers met 2 miljoen bronnen 
+  url: http://techcrunch.com/2012/12/11/owlin/
+- title: Nieuwsjagers met 2 miljoen bronnen
   logo: images/press/volkskrant.jpg
   name: Volkskrant
   url: static/VK2.02.2016.pdf
-- title: Financieele dagblad 
+- title: Financieele dagblad
   name: Financieele Dagblad
   logo: images/press/fd.png
-  url: http://riichard.com/images/owlinfdarticle.JPG 
-- title: Deze Amsterdamse start-up is sneller dan Bloomberg (zeggen ze zelf) 
-  name: NRC 
+  url: http://riichard.com/images/owlinfdarticle.JPG
+- title: Deze Amsterdamse start-up is sneller dan Bloomberg (zeggen ze zelf)
+  name: NRC
   logo: images/press/nrc.png
-  url: https://www.nrc.nl/nieuws/2014/11/03/deze-utrechtse-start-up-is-sneller-dan-bloomberg-zeggen-ze-zelf-a1499258 
+  url: https://www.nrc.nl/nieuws/2014/11/03/deze-utrechtse-start-up-is-sneller-dan-bloomberg-zeggen-ze-zelf-a1499258
 - title: Who Will Be Next To Invest In The Internet Of Things? KPMG Startup Trends Index Can Help Provide Answers
   name: Yahoo Finance
   logo: images/press/yahoofinance.png
@@ -22,7 +22,7 @@
   name: Mashable
   url: http://mashable.com/2012/12/12/owlin-real-time-news/
   logo: images/press/mashable.png
-- title: Startup Owlin slaat persbureaus over 
+- title: Startup Owlin slaat persbureaus over
   name: Nu.nl
   logo: images/press/nu.jpg
   url: http://www.nu.nl/nuzakelijk-overig/2979687/startup-owlin-slaat-persbureaus.html
@@ -41,11 +41,11 @@
 - name: Elsevier
   url: http://www.elsevier.nl/economie/article/2016/02/extra-talent-kunnen-we-continu-gebruiken-2756973W/
   logo: images/press/elsevier.jpg
-  title: ‘Extra talent kunnen we continu gebruiken’ 
+  title: ‘Extra talent kunnen we continu gebruiken’
 - name: ING World
   title: Breaking the news
   logo: images/press/ing.png
-  url: https://ingworld.ing.com/en/2016-2Q/4-ing-labs?utm_source=fbinggrp&utm_medium=social&utm_campaign=q2
+  url: /static/INGAAmagazineOwlinArtikel.pdf
 - name: Emerce
   logo: images/press/emerce.jpg
   title: Razendsnelle nieuwsmonitor geeft financiële sector informatievoorsprong
