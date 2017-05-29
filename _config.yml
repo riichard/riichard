@@ -1,7 +1,9 @@
-title:            Richard A. Kraaijenhagen 
-description:      'Full Stack Developer & Data Scientist/Visualizer. Founder Owlin.'
+title:            Richard A. Kraaijenhagen
+description:      'Data Scientist/Visionair. Founder Owlin.'
 #logo:             omikron.png
 #disqus_shortname: hmfaysal
+
+gems: [jekyll-paginate]
 
 # Assign a default image for your site's header and footer
 default_bg:       avatar_45.jpg
@@ -22,34 +24,34 @@ animated_fins:    true
 fin_color:        "255,255,255"
 
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:              http://riichard.com
-    
+
 # Owner/author information
 owner:
-  name:           Richard A. Kraaijenhagen 
+  name:           Richard A. Kraaijenhagen
   avatar:         richard.glasses.jpg
-  email:          stdin@riichard.com 
+  email:          stdin@riichard.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Full Stack Developer & Data Scientist/Visualizer. Founder Owlin.
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        riichard 
-  facebook:       richard.kraayenhagen 
-  github:         riichard 
-  linkedin:       https://www.linkedin.com/in/riichard 
+  twitter:        riichard
+  facebook:       richard.kraayenhagen
+  github:         riichard
+  linkedin:       https://www.linkedin.com/in/riichard
   instagram:      riichard
   foursquare:     riichard
-  dotfiles:       http://github.com/riichard/dotfiles 
+  dotfiles:       http://github.com/riichard/dotfiles
   #spotify:        riichard
   # For Google Authorship https://plus.google.com/authorship
   #google_plus:    https://plus.google.com/u/0/102602916593522619858
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:  UA-58056169-1 
-google_verify:      
+google_analytics:  UA-58056169-1
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -68,26 +70,25 @@ links:
 timezone:    America/New_York
 future:      true
 highlighter: rouge
-markdown:    kramdown
 paginate:    6
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:title
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+#kramdown:
+  #auto_ids: true
+  #footnote_nr: 1
+  #entity_output: as_char
+  #toc_levels: 1..6
+  #enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  #coderay:
+    #coderay_line_numbers:
+    #coderay_line_numbers_start: 1
+    #coderay_tab_width: 4
+    #coderay_bold_every: 10
+    #coderay_css: class
 
 prose:
   rooturl: '_posts'
@@ -112,7 +113,7 @@ prose:
           placeholder: "Choose your type"
           options:
             - name: "Standard"
-              value: 
+              value:
             - name: "Photo"
               value: photo
             - name: "Video"
