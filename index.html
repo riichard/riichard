@@ -1,7 +1,8 @@
 ---
 layout: home
-title: Latest Posts
+title: Home
 ---
+
 
 {% for post in paginator.posts %}
     {% if site.wpm %}
@@ -133,7 +134,7 @@ title: Latest Posts
                         <p>
 
                         {% if post.thumbnail %}
-                            <img src="{{ post.thumbnail }}" 
+                            <img src="{{ post.thumbnail }}"
                             class="preview" />
                         {% endif %}
 
@@ -143,7 +144,7 @@ title: Latest Posts
                             {{ post.content | strip_html | truncatewords:100 }}...
                         {% endif %}
                             <a href="{{ post.url }}"
-                                data-toggle="tooltip" 
+                                data-toggle="tooltip"
                                 title="{{ post.description | strip_html }}"
                                 >read more</a>
                         </p>
@@ -155,7 +156,7 @@ title: Latest Posts
     </div>
     {% endif %}
 
-{% endfor %} 
+{% endfor %}
 {% comment %}End of posts in page for-loop{% endcomment %}
 
 {% comment %}Start paginator code{% endcomment %}
@@ -174,7 +175,7 @@ title: Latest Posts
 
 <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
-{% if paginator.next_page %}   
+{% if paginator.next_page %}
     <a class="older-posts" href="/page{{ paginator.next_page }}">Older Posts &rarr;</a>
 {% endif %}
 </nav>
@@ -182,3 +183,8 @@ title: Latest Posts
         </div>
 {% endif %}
 {% comment %}Stop paginator code{% endcomment %}
+
+<hr/>
+
+
+{% include press.html %}
