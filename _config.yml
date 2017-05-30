@@ -4,7 +4,7 @@ description:      'Data Scientist/Strategist. Founder Owlin.'
 #disqus_shortname: hmfaysal
 #
 
-gem: [jekyll-paginate]
+#gem: [jekyll-paginate]
 
 # Assign a default image for your site's header and footer
 default_bg:       avatar_45.jpg
@@ -71,8 +71,8 @@ links:
 timezone:    America/New_York
 future:      true
 highlighter: rouge
-paginate:    6
-paginate_path: "page:num"
+#paginate:    6
+#paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:title
