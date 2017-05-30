@@ -1,7 +1,7 @@
---- 
-layout: post 
-title: VIM, the magic wand for writing text 
-date: 2015-07-26 08:00:00 
+---
+layout: post
+title: VIM, the magic wand for writing stories and text. Not just code
+date: 2015-07-26 08:00:00
 tags: [ vim ]
 thumbnail: /images/vim/togglelists.gif
 
@@ -14,7 +14,7 @@ that have proven their quality against the test of time over and over again
 that truly interest me. Take for example the plethora of books that are well
 over a century old which still get referenced today. Sun Tzu’s The Art of War,
 for example, was written in 513 BCE. Heck, even Andy Grove's High Output
-Management from the 80’s is still pretty relevant even in today’s modern era. 
+Management from the 80’s is still pretty relevant even in today’s modern era.
 
 VIM is one of these ageless things. VIM is a famous tool for editing code, but
 only a few know the power it holds for text editing. The greatest thing about
@@ -23,7 +23,7 @@ mouse!), which forces your brain to train your muscle memory to become a magic
 wand over your text. You only have to think it, and your content has already
 changed. VIM is coincidentally also one of the most hated programs of all time
 due to its steep learning curve. But for those who love VIM, we love it
-vehemently for the power and speed that it brings to our coding. 
+vehemently for the power and speed that it brings to our coding.
 
 ### Haters
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I&#39;ve
@@ -45,19 +45,19 @@ href="https://twitter.com/timoreilly/status/582914712699998210">March 31,
 
 Eventually VIM's keyboard shortcuts will make the distance between your brain's
 thought and your screen frictionless so you will see how verbose your monkey-mind
-becomes on paper. 
+becomes on paper.
 
 To demonstrate what I mean, I created a few recordings of my favourite VIM
 muscle memories.
 
 ### Toggle lists to sentences
 Just by selecting the text and pressing `,l` I can convert a list of words in a
-sentence to a bulleted list, and the other way around. 
+sentence to a bulleted list, and the other way around.
 I'm doing this with the _TODO_ plugin.
 
 ![toggle lists](/images/vim/togglelists.gif)
 
-### Jump to text faster than your mouse. 
+### Jump to text faster than your mouse.
 With one key all words become listed with a letter, then by pressing that
 letter your cursor will jump to that word.
 I'm demonstrating it slower than I actually use it. After a while this will be
@@ -81,13 +81,13 @@ in your code). [plugin: godlygeek/tabular]
 
 ### Highlight the word under the cursor everywhere
 With the [interesting words plugin], I can see all references to this word in
-my text. 
+my text.
 
 ![highlight interesting words](/images/vim/highlight.gif)
 
 ### Then Swap a word with a shortcut
 When I'm on the word, I press `c` for change, type `cow`, jump to the next word
-with `n`, and hit `.` to repeat my last change on this word. 
+with `n`, and hit `.` to repeat my last change on this word.
 
 ![swapping words](/images/vim/swapword.gif)
 
@@ -100,7 +100,7 @@ Though it won't help you to with grammar, it will highlight problamatic words.
 ### Distraction free
 Because VIM doesn't have the fancy features to tune the layout of your text,
 you're restricted to the purity of your content. No distractions to fiddling
-around with the margins or typography. 
+around with the margins or typography.
 
 ## Installation
 You don't have to install anything, it already comes pre-installed on every
@@ -116,7 +116,7 @@ If you found this useful, you might also enjoy:
 [My vim configuration file]: https://github.com/riichard/dotfiles/blob/master/vim/vimrc
 [plugin: shinokada/listtrans.vim]: https://github.com/shinokada/listtrans.vim
 [plugin: godlygeek/tabular]: https://github.com/godlygeek/tabular
-[interesting words plugin]: https://github.com/vasconcelloslf/vim-interestingwords 
+[interesting words plugin]: https://github.com/vasconcelloslf/vim-interestingwords
 [plugin: reedes/vim-wordy]: https://github.com/reedes/vim-wordy
 [Seven habits of effective text editing]: http://www.moolenaar.net/habits.html
 [Overview of possible keystrokes]: http://rayninfo.co.uk/vimtips.html
