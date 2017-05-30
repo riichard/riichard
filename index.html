@@ -4,7 +4,7 @@ title: Home
 ---
 
 
-{% for post in paginator.posts %}
+{% for post in site.posts %}
     {% if site.wpm %}
     {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
     {% else %}
