@@ -3,6 +3,9 @@ layout: home
 title: Home
 ---
 
+{% include press.html %}
+
+<hr/>
 
 {% for post in site.posts %}
     {% if site.wpm %}
@@ -184,7 +187,3 @@ title: Home
 {% endif %}
 {% comment %}Stop paginator code{% endcomment %}
 
-<hr/>
-
-
-{% include press.html %}
