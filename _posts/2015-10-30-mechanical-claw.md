@@ -2,22 +2,24 @@
 layout: post
 title: Remote controlled mechanical claw
 thumbnail: /images/claw.gif
-date: 2015-10-30 08:00:00 
+date: 2015-10-30 08:00:00
 tags: [ hardware, javascript, arduino, hobbyproject ]
 
 ---
-    
+
 A while ago I had this hobby project where we ordered a mechanical claw from ebay and
-connected it to an Arduino to control it via websockets. 
+connected it to an Arduino to control it via websockets.
 This in the end would allow a webcam to be connected, and make the claw to be
 remotely controlled, with multiple cameras in the front, top of the claw and
 sideways for a unique perspective.
 
-<div class="embed-responsive embed-responsive-1by1">
-<iframe class="embed-responsive-item" src="https://vine.co/v/hlIMBpIzHKr/embed/simple"></iframe>
+<div class="row">
+    <video loop controls height="500" class="col-md-12">
+        <source src="/static/claw/arduino.mp4" type="video/mp4">
+    </video>
 </div>
 
-### The hardware 
+### The hardware
 
 The Arduino was connected to some relais, which were connected to the engines
 in the mechanical claw. You can use the arrow keys to move the thing around.
@@ -30,10 +32,10 @@ weightless).
 - Whether you reached the top of the wire.
 - Reaching the end of the YZ axis.
 
-<div class="embed-responsive embed-responsive-1by1">
-<iframe class="embed-responsive-item" src="https://vine.co/v/eYlBrFTbDPV/embed/simple"
-frameborder="0"></iframe><script
-src="https://platform.vine.co/static/scripts/embed.js"></script>
+<div class="row">
+    <video loop controls height="500" class="col-md-12">
+        <source src="/static/claw/hamster.mp4" type="video/mp4">
+    </video>
 </div>
 
 ### Source code
@@ -47,7 +49,7 @@ Watch the source code here: https://github.com/riichard/claw
 
 [johnny-five library]: https://github.com/rwaldron/johnny-five
 
-### Final results 
+### Final results
 Due to too much lack of my expertise, I never got to the end goal of setting up the website with a webcam livestream and remote controlled keyboard.
 It did work like a champ via a 3rd party streaming service such as Skype or
 Google Hangouts and was fun to have friends play around with it like that..
