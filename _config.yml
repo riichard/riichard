@@ -32,11 +32,10 @@ url:              http://riichard.com
 # Owner/author information
 owner:
   name:           Richard A. Kraaijenhagen
-  avatar:         richard.glasses.jpg
+  #avatar:         richardhairwtf10fps.gif
   email:          stdin@riichard.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Full Stack Developer & Data Scientist/Visualizer. Founder Owlin.
-  # Social networking links used in footer. Update and remove as you like.
+  description:      'Data Scientist/Strategist. Founder Owlin.'
   twitter:        riichard
   facebook:       richard.kraayenhagen
   github:         riichard
