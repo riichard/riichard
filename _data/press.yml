@@ -35,7 +35,7 @@
   title: Netherlands' Owlin Seeded With $250K for News Dashboard
   url: http://www.wsj.com/articles/DJFVW00020121214e8ceu18bf?mod=undefined
 - name: The Next Web
-  logo: images/press/tnw.jpg
+  logo: images/press/tnw.png
   title: Rockstart-backed Owlin lands $250k for real-time news analysis and notifications
   url: https://thenextweb.com/twitter/2011/07/13/tweepfeed-the-twitter-rss-solution-that-helps-avoid-information-overload/
   old_url: http://thenextweb.com/insider/2012/12/11/rockstart-backed-owlin-lands-250k-for-real-time-news-analysis-and-notifications/
@@ -43,6 +43,9 @@
   url: http://www.elsevier.nl/economie/article/2016/02/extra-talent-kunnen-we-continu-gebruiken-2756973W/
   logo: images/press/elsevier.jpg
   title: ‘Extra talent kunnen we continu gebruiken’
+- name: Dutch Ministry of Social Affairs
+  url: https://www.youtube.com/watch?v=zbxDUmVy8Qk
+  logo: images/press/minszw.gif
 - name: ING World
   title: Breaking the news
   logo: images/press/ing.png
