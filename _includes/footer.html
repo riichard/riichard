@@ -94,6 +94,7 @@
                     href="https://github.com/riichard/riichard/commits/gh-pages/{{ page.path }}">
                     Loading content verification information ...
                 </a>
+                <div id="verifiedmessage"></div>
                 <script type="text/javascript">
                     var errorReasons = {
                         expired_key:           " The key that made the signature is expired." ,
@@ -114,6 +115,7 @@
                     document.addEventListener("DOMContentLoaded", function(event) {
                         $.getJSON('https://api.github.com/repos/riichard/riichard/commits?path={{ page.path }}&callback=?', function(commits) {
                             var $verify = $("#verifiedcommit");
+                            var $message = $("#verifiedmessage");
                             if(!commits || !commits.data || !commits.data[0].commit) {
                                 var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
                                     +'Could not verify authenticity of the content on this page. Reason unknown'
@@ -137,18 +139,21 @@
                             if(lastcommit.verification.reason !== 'valid') {
                                 var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
                                     +'Could not verify authenticity of the content on this page. Reason: '
-                                    +'<i>'
+                                    +'<b>'
                                     +lastcommit.verification.reason
-                                    +'</i>, '
-                                    +errorReasons[lastcommit.verification.reason];
-                                return
+                                    +'</b>'
                                 $verify.html(errorMessage).addClass('btn-warning');
+                                $message.text(errorReasons[lastcommit.verification.reason]);
+                                return
                             }
 
                             // The content seems valid. But we don't want to imply
                             // a statement it is. User should remain aware this is
                             // still frontend code and that it could be tampered with.
-                            $verify.html('<i class="fa fa-check-circle" aria-hidden="true"></i> Verify content on GitHub. <i>Latest commit on page: '+lastsha+' by '+lastcommit.committer.name+'</i>');
+                            $verify.html('<i class="fa fa-check-circle" aria-hidden="true"></i> Verify content on GitHub');
+                            $verifyInfo.html('Latest commit on page: '
+                                +lastsha+' signed by '+lastcommit.committer.name+' on '
+                                +lastcommit.committer.date);
                         });
                     });
                 </script>
