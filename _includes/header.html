@@ -1,38 +1,16 @@
 <div id="fade"></div>
 
-<!--I didn't like the sidebar-->
-<!--<a id="slide" class="animated fade"></a>-->
-<!--<aside id="sidebar">-->
-    <!--<nav id="navigation">-->
-    <!--<h2>MENU</h2>-->
-    <!--<hr>-->
-    <!--{% for link in site.links %}-->
-        <!--<li>{% if link.external %}-->
-            <!--<a href="{{ link.url }}">{{ link.title }}</a>-->
-            <!--{% else %}-->
-                <!--<a href="{{ link.url }}">{{ link.title }}</a>-->
-            <!--{% endif %} </li>-->
-    <!--{% endfor %}            -->
-       <!--<li>-->
-            <!--<a href="/feed.xml" title="Atom/RSS feed">-->
-                <!--<i class="icon-rss"></i> -->
-                <!--Feed-->
-            <!--</a>-->
-        <!--</li>-->
-    <!--</nav>-->
-<!--</aside>-->
-
 {% if page.imagefeature %}
-    <header id="masthead" 
-        class="blog-background overlay align-center align-middle animated from-bottom"  
-        style="background-image: url(/images/{{ page.imagefeature }})" 
-        itemscope 
+    <header id="masthead"
+        class="blog-background overlay align-center align-middle animated from-bottom"
+        style="background-image: url(/images/{{ page.imagefeature }})"
+        itemscope
         itemtype="http://schema.org/Organization">
 {% else %}
-    <header id="masthead" 
-        class="blog-background overlay align-center align-middle animated from-bottom"  
-        style="background-image: url(/images/{{ site.default_bg }})" 
-        itemscope 
+    <header id="masthead"
+        class="blog-background overlay align-center align-middle animated from-bottom"
+        style="background-image: url(/images/{{ site.default_bg }})"
+        itemscope
         itemtype="http://schema.org/Organization">
 {% endif %}
 
@@ -49,7 +27,7 @@
         <h1 class="blog-title light" itemprop="name">
             {{ site.title }}
         </h1>
-            
+
         </a>
         <h2 class="blog-description light bordered bordered-top" itemprop="description">
             {{ site.description }}
