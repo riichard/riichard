@@ -43,7 +43,7 @@ heavily guarded [Swiss Bunkers under 1000 meter of granite rock](https://protonm
 
 ## Pictures
 
-If you want to be respectful to me, and likely also to others:
+If you want to be respectful to me and others consider these rules normal:
 
 1. Please ask me first if you can take a picture of me.
 2. If you've taken a picture, then consent again whether you can share it with others.
@@ -57,17 +57,23 @@ send me encrypted files/texts. These keys are of course no guarantee to be
 really me. So for extra guarantee of verification ask me in person, and check
 my key on the MIT Keyserver for updates and revokes.
 
-[My key on the MIT Keyserver](http://pgp.mit.edu/pks/lookup?search=riichard.com&op=index)
+[Key on the MIT Keyserver](http://pgp.mit.edu/pks/lookup?search=riichard.com&op=index)
+
 
 In any case of doubt my key will be revoked on that server by either me or one
 of my trusted contacts.
 
-### Fingerprint
+### Details
+
 ```
-E087 99AA 5747 2494 80C2  EF7D 1BD9 5BD9 E184 74D1
+---------------------------------
+pub   rsa4096 2017-03-01 [SC]
+      E08799AA5747249480C2EF7D1BD95BD9E18474D1
+uid           [ultimate] Richard Kraaijenhagen <stdin@riichard.com>
+sub   rsa4096 2017-03-01 [E]
 ```
 
-### Public key [View Raw file](/pubkey.acs)
+### Public key >> [View Raw file](/pubkey.acs)
 
 ```
 {% include pubkey.asc %}
