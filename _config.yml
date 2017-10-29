@@ -1,5 +1,4 @@
 title:            Richard A. Kraaijenhagen
-description:      'Data Scientist/Strategist. Founder Owlin.'
 #logo:             omikron.png
 #disqus_shortname: hmfaysal
 #
@@ -35,7 +34,6 @@ owner:
   #avatar:         richardhairwtf10fps.gif
   email:          stdin@riichard.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:      'Data Scientist/Strategist. Founder Owlin.'
   twitter:        riichard
   facebook:       richard.kraayenhagen
   github:         riichard
@@ -62,7 +60,7 @@ links:
   - title: Press
     url: /press.html
     external: false
-  - title: GPG Keys
+  - title: Contact guidelines (GPG/PGP)
     url: /gpg
     external: false
 
