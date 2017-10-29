@@ -4,7 +4,7 @@
   "description": "Personal blog",
   "main": "Gruntfile.js",
   "scripts": {
-    "less": "lessc --bower-resolve less/main.less assets/css/main.css && cp bower_components/font-awesome/fonts assets/",
+    "less": "lessc --bower-resolve less/main.less assets/css/main.css && cp -r bower_components/font-awesome/fonts assets/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
