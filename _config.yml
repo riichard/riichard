@@ -59,12 +59,12 @@ links:
   - title: Home
     url: /
     external: false
-  - title: Press
-    url: /press.html
-    external: false
   - title: Contact guidelines (GPG/PGP)
     url: /gpg
     external: false
+  #- title: Press
+    #url: /press.html
+    #external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

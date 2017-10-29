@@ -70,7 +70,7 @@ uid           [ultimate] Richard Kraaijenhagen <stdin@riichard.com>
 sub   rsa4096 2017-03-01 [E]
 ```
 
-### Public key >> [View Raw file](/pubkey.acs)
+### Public key -  [View Raw file](/pubkey.acs)
 
 ```
 {% include pubkey.asc %}

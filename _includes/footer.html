@@ -114,9 +114,11 @@
                     document.addEventListener("DOMContentLoaded", function(event) {
                         $.getJSON('https://api.github.com/repos/riichard/riichard/commits?path={{ page.path }}&callback=?', function(commits) {
                             var $verify = $("#verifiedcommit");
-                            if(!commits || !commits.data || !commits.data[0].commit || !commits.data[0].commit.verification.verified) {
-                                $verify.text('Could not verify authenticity of the content on this page. Reason unknown').addClass('btn-alert');
-                             }
+                            if(!commits || !commits.data || !commits.data[0].commit) {
+                                var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
+                                    +'Could not verify authenticity of the content on this page. Reason unknown'
+                                $verify.html(errorMessage).addClass('btn-warning');
+                            }
 
                             // Warn the user in case the commit isn't valid for whatever reason
                             // We only check the latest commit on the document. We
@@ -124,19 +126,29 @@
                             // TODO Make a very visible warning message.
                             var lastcommit = commits.data[0].commit;
                             var lastsha = commits.data[0].sha;
+
+                            if(!lastcommit.verification.verified) {
+                                var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
+                                    +'Could not verify authenticity of the content on this page. Latest change was not signed.'
+                                $verify.html(errorMessage).addClass('btn-warning');
+                            }
+
+
                             if(lastcommit.verification.reason !== 'valid') {
-                                var errorMessage = 'Could not verify authenticity of the content on this page. Reason: '
-                                    +'<pre>'
+                                var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
+                                    +'Could not verify authenticity of the content on this page. Reason: '
+                                    +'<i>'
                                     +lastcommit.verification.reason
-                                    +'</pre>: '
+                                    +'</i>, '
                                     +errorReasons[lastcommit.verification.reason];
-                                return $verify.text(errorMessage).addClass('btn-alert');
+                                return
+                                $verify.html(errorMessage).addClass('btn-warning');
                             }
 
                             // The content seems valid. But we don't want to imply
                             // a statement it is. User should remain aware this is
                             // still frontend code and that it could be tampered with.
-                            $verify.html('Verify content on GitHub. <i>Latest commit on page: '+lastsha+' by '+lastcommit.committer.name+'</i>');
+                            $verify.html('<i class="fa fa-check-circle" aria-hidden="true"></i> Verify content on GitHub. <i>Latest commit on page: '+lastsha+' by '+lastcommit.committer.name+'</i>');
                         });
                     });
                 </script>
