@@ -15,13 +15,13 @@ Claiming these to be private is naive. They do not comply as ["free
 software"](https://www.fsf.org/about/) and do not support e2e encryption by
 default, nor offer full transparency in it's e2e protocol.
 
-### Please do use
+### Please do use for messaging
 
 - [Signal Messenger](https://www.signal.org/) for chats, Also [recommended by
     Snowden](https://twitter.com/Snowden/status/661313394906161152) and is fully transparent in [it's source
     code](https://github.com/whispersystems). You can use my
     regular phone number.
-- [Wickr](https://www.wickr.com/) for one-time messages. [Only it's encryption
+- [Wickr](https://www.wickr.com/) for one-time messages. Not "free". [Only it's encryption
     library is public](https://github.com/WickrInc/wickr-crypto-c). Username: `riichard`
 
 Avoidance of proper tooling indicates me you're not initiated on privacy
@@ -55,12 +55,9 @@ If you want to be respectful to me and others consider these rules normal:
 You can use these keys and fingerprints to verify my authenticity and securely
 send me encrypted files/texts. These keys are of course no guarantee to be
 really me. So for extra guarantee of verification ask me in person, and check
-my key on the MIT Keyserver for updates and revokes.
+my key on the MIT Keyserver for updates and revokes > [Key history on the MIT Keyserver](http://pgp.mit.edu/pks/lookup?search=riichard.com&op=index)
 
-[Key on the MIT Keyserver](http://pgp.mit.edu/pks/lookup?search=riichard.com&op=index)
-
-
-In any case of doubt my key will be revoked on that server by either me or one
+In any case of doubt about my private key will the key be revoked on that server by either me or one
 of my trusted contacts.
 
 ### Details
