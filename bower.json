@@ -26,6 +26,7 @@
     "jekyll-rest-api": "*",
     "jquery": "1.9.1 - 2",
     "less": "~2.5.1",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "font-awesome": "^4.7.0"
   }
 }
