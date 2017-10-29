@@ -15,7 +15,6 @@
             </li>{% endif %}
             {% if site.owner.facebook %}<li>
                 <a href="http://facebook.com/{{ site.owner.facebook }}" data-toggle="tooltip"  target="_blank">
-                    <i class="icon-facebook"></i>
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
             </li>{% endif %}
@@ -151,7 +150,7 @@
                             // a statement it is. User should remain aware this is
                             // still frontend code and that it could be tampered with.
                             $verify.html('<i class="fa fa-check-circle" aria-hidden="true"></i> Verify content on GitHub');
-                            $verifyInfo.html('Latest commit on page: '
+                            $message.html('Latest commit on page: '
                                 +lastsha+' signed by '+lastcommit.committer.name+' on '
                                 +lastcommit.committer.date);
                         });
