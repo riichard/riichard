@@ -28,6 +28,9 @@ Avoidance of proper tooling indicates me you're not initiated on privacy
 issues as most people are. I'm open to tell you more on how to set these things
 up, as I'll also try to write about it on my website.
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I use Signal every day. <a href="https://twitter.com/hashtag/notesforFBI?src=hash&amp;ref_src=twsrc%5Etfw">#notesforFBI</a> (Spoiler: they already know) <a href="https://t.co/KNy0xppsN0">https://t.co/KNy0xppsN0</a></p>&mdash; Edward Snowden (@Snowden) <a href="https://twitter.com/Snowden/status/661313394906161152?ref_src=twsrc%5Etfw">November 2, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Email
 
 Contact me on `stdin` @ `riichard.com`. It's servers run by Protonmail and is
