@@ -3,9 +3,16 @@ layout: page
 title: Contact guidelines
 ---
 
+```
+stdin@riichard.com
++316147570004
+```
+
 As a modern etiquette to our mutual privacy, it's respectful to treat our
-information with delicacy. Just as much some people call showing up clean and
+information with care. Just as much some people call showing up clean and
 prepared 'respectful' is this an etiquette guideline for modern communications.
+As an example, you don't invite strangers when discussing private things in
+person with your close friends, so neither would you do that online.
 
 ## Texting
 
