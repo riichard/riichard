@@ -12,9 +12,8 @@ created a hack called Hashtagivist. Promoting hashtags for social justice on
 Twitter.
 
 <div class="embed-responsive embed-responsive-4by3">
-<iframe src="https://vine.co/v/MnpHew2gPYV/embed/postcard" 
-frameborder="0"></iframe><script
-src="https://platform.vine.co/static/scripts/embed.js"></script>
+<iframe src="https://vine.co/v/MnpHew2gPYV/embed/postcard"
+frameborder="0"></iframe>
 </div>
 
 # Hashtagivist

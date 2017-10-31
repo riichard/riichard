@@ -5,6 +5,7 @@
   "main": "Gruntfile.js",
   "scripts": {
     "less": "lessc --bower-resolve less/main.less assets/css/main.css && cp -r bower_components/font-awesome/fonts assets/",
+    "jekyll": "jekyll serve --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,16 +25,8 @@
     "url": "https://github.com/riichard/riichard/issues"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-less": "~0.11.0",
-    "grunt-contrib-watch": "~0.6.1",
     "less": "^2.7.3",
     "less-plugin-bower-resolve": "^0.1.0"
   },
-  "homepage": "http://riichard.com/",
-  "dependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-less": "^0.11.4",
-    "grunt-contrib-watch": "^0.6.1"
-  }
+  "homepage": "http://riichard.com/"
 }

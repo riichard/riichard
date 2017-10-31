@@ -1,7 +1,6 @@
 {
   "name": "riichard.com",
   "description": "Personal blog",
-  "main": "Gruntfile.js",
   "authors": [
     "Richard Kraaijenhagen"
   ],
@@ -24,7 +23,6 @@
   ],
   "dependencies": {
     "jekyll-rest-api": "*",
-    "jquery": "1.9.1 - 2",
     "less": "~2.5.1",
     "bootstrap": "~3.3.5",
     "font-awesome": "^4.7.0"
