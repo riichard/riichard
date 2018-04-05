@@ -3,7 +3,7 @@
   name: TechCrunch
   url: http://techcrunch.com/2012/12/11/owlin/
 - title: Nieuwsjagers met 2 miljoen bronnen
-  logo: images/press/volkskrant.jpg
+  logo: images/press/volkskrant.png
   name: Volkskrant
   url: static/VK2.02.2016.pdf
 - title: Financieele dagblad
@@ -24,7 +24,7 @@
   logo: images/press/mashable.png
 - title: Startup Owlin slaat persbureaus over
   name: Nu.nl
-  logo: images/press/nu.jpg
+  logo: images/press/nu.png
   url: http://www.nu.nl/nuzakelijk-overig/2979687/startup-owlin-slaat-persbureaus.html
 - name: Business Insider
   logo: images/press/businessinsider.png
@@ -41,7 +41,7 @@
   old_url: http://thenextweb.com/insider/2012/12/11/rockstart-backed-owlin-lands-250k-for-real-time-news-analysis-and-notifications/
 - name: Elsevier
   url: http://www.elsevier.nl/economie/article/2016/02/extra-talent-kunnen-we-continu-gebruiken-2756973W/
-  logo: images/press/elsevier.jpg
+  logo: images/press/elsevier.png
   title: ‘Extra talent kunnen we continu gebruiken’
 - name: Dutch Ministry of Social Affairs
   url: https://www.youtube.com/watch?v=zbxDUmVy8Qk
@@ -51,7 +51,7 @@
   logo: images/press/ing.png
   url: /static/INGAAmagazineOwlinArtikel.pdf
 - name: Emerce
-  logo: images/press/emerce.jpg
+  logo: images/press/emerce.png
   title: Razendsnelle nieuwsmonitor geeft financiële sector informatievoorsprong
   url: http://www.emerce.nl/interviews/razendsnelle-nieuwsmonitor-geeft-financile-sector-informatievoorsprong
 
