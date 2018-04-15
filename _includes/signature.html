@@ -29,9 +29,6 @@ function verifyContent() {
         valid:                 " None of the above errors applied, so the signature is considered to be verified." ,
     };
 
-    var $verify = document.getElementById("#verifiedcommit");
-    var $message = document.getElementById("#verifiedmessage");
-
     function setVerificationStatusByCommits(commits) {
 
         if(!commits || !commits.data || !commits.data[0].commit) {
