@@ -83,7 +83,7 @@ function verifyContent() {
     !(function loadVerifiedCommits(){
         var callbackName = 'pgpsign'+(Math.floor(Math.random()*1e10));
 
-        document.window[callbackName] = setVerificationStatusByCommits;
+        window[callbackName] = setVerificationStatusByCommits;
         // pagePath is a jekyll variable that will be compiled into every page
         // based on that page's path
         var url =
