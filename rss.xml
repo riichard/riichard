@@ -1,0 +1,30 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+
+    <atom:link href="{{site.baseurl | prepend: site.url}}/feeds.xml" rel="self" type="application/rss+xml" />
+
+    <title>{{site.user_title}}</title>
+    <link>{{ site.url }}</link>
+    <description>{{site.description}}</description>
+
+    {% for post in site.posts %}
+
+    <item>
+      <title>{{post.title}}</title>
+      <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+      <description>{{post.description}}</description>
+      <author>{{site.email}} ({{site.user_title}})</author>
+      <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+      <pubDate>{{post.date | date_to_rfc822 }}</pubDate>
+    </item>
+
+    {% endfor %}
+
+  </channel>
+
+</rss>

@@ -89,73 +89,7 @@
             <div>
                 <br>
 
-                <a id="verifiedcommit" class="btn"
-                    href="https://github.com/riichard/riichard/commits/gh-pages/{{ page.path }}">
-                    Loading content verification information ...
-                </a>
-                <div id="verifiedmessage"></div>
-                <script type="text/javascript">
-                    var errorReasons = {
-                        expired_key:           " The key that made the signature is expired." ,
-                        not_signing_key:       " The \"signing\" flag is not among the usage flags in the GPG key that made the signature. " ,
-                        gpgverify_error:       " There was an error communicating with the signature-verification service." ,
-                        gpgverify_unavailable: " The signature-verification service is currently unavailable." ,
-                        unsigned:              " The latest change does not include a signature." ,
-                        unkown_signature_type: " A non-PGP signature was found in the commit." ,
-                        no_user:               " No user was associated with the committer email address in the commit." ,
-                        unverified_email:      " The committer email address in the commit was associated with a user, but the email address is not verified on her/his account." ,
-                        bad_email:             " The committer email address in the commit is not included in the identities of the PGP key that made the signature." ,
-                        unknown_key:           " The key that made the signature has not been registered with any user's account." ,
-                        malformed_signature:   " There was an error parsing the signature." ,
-                        invalid:               " The signature could not be cryptographically verified using the key whose key-id was found in the signature." ,
-                        valid:                 " None of the above errors applied, so the signature is considered to be verified." ,
-                    };
-
-                    document.addEventListener("DOMContentLoaded", function(event) {
-                        $.getJSON('https://api.github.com/repos/riichard/riichard/commits?path={{ page.path }}&callback=?', function(commits) {
-                            var $verify = $("#verifiedcommit");
-                            var $message = $("#verifiedmessage");
-                            if(!commits || !commits.data || !commits.data[0].commit) {
-                                var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
-                                    +'Could not verify authenticity of the content on this page. Reason unknown'
-                                $verify.html(errorMessage).addClass('btn-warning');
-                            }
-
-                            // Warn the user in case the commit isn't valid for whatever reason
-                            // We only check the latest commit on the document. We
-                            // trust the last editor to monitor the content of the page
-                            // TODO Make a very visible warning message.
-                            var lastcommit = commits.data[0].commit;
-                            var lastsha = commits.data[0].sha;
-
-                            if(!lastcommit.verification.verified) {
-                                var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
-                                    +'Could not verify authenticity of the content on this page. Latest change was not signed.'
-                                $verify.html(errorMessage).addClass('btn-warning');
-                            }
-
-
-                            if(lastcommit.verification.reason !== 'valid') {
-                                var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
-                                    +'Could not verify authenticity of the content on this page. Reason: '
-                                    +'<b>'
-                                    +lastcommit.verification.reason
-                                    +'</b>'
-                                $verify.html(errorMessage).addClass('btn-warning');
-                                $message.text(errorReasons[lastcommit.verification.reason]);
-                                return
-                            }
-
-                            // The content seems valid. But we don't want to imply
-                            // a statement it is. User should remain aware this is
-                            // still frontend code and that it could be tampered with.
-                            $verify.html('<i class="fa fa-check-circle" aria-hidden="true"></i> Verify content on GitHub');
-                            $message.html('Latest commit on page: '
-                                +lastsha+' signed by '+lastcommit.committer.name+' on '
-                                +lastcommit.committer.date);
-                        });
-                    });
-                </script>
+                {% include signature.html %}
 
             </div>
 
