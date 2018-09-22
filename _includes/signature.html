@@ -87,7 +87,7 @@ function verifyContent() {
         // pagePath is a jekyll variable that will be compiled into every page
         // based on that page's path
         var url =
-            'https://api.github.com/repos/riichard/riichard/commits?path={{ page.path }}&callback=' + callbackName;
+            'https://api.github.com/repos/riichard/riichard/commits?callback=' + callbackName;
 
         var script = document.createElement('script');
         script.src = url; 
