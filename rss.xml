@@ -6,7 +6,7 @@ layout: null
 
   <channel>
 
-    <atom:link href="{{site.baseurl | prepend: site.url}}/feeds.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{site.baseurl | prepend: site.url}}/feed.xml" rel="self" type="application/rss+xml" />
 
     <title>{{site.user_title}}</title>
     <link>{{ site.url }}</link>
@@ -15,10 +15,16 @@ layout: null
     {% for post in site.posts %}
 
     <item>
-      <title>{{post.title}}</title>
+      <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <description>{{post.description}}</description>
-      <author>{{site.email}} ({{site.user_title}})</author>
+
+      <author>
+        <name>{{ site.owner.name }}</name>
+        <uri>{{ site.url }}</uri>
+        <email>{{ site.owner.email }}</email>
+      </author>
+
       <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
       <pubDate>{{post.date | date_to_rfc822 }}</pubDate>
     </item>
