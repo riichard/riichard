@@ -1,7 +1,6 @@
 <a id="verifiedcommit" class="btn" href="https://github.com/riichard/riichard/commits/gh-pages/">
     Verify content on GitHub
 </a>
-
 <div id="verifiedmessage"></div>
 
 <script type="text/javascript">
@@ -50,7 +49,6 @@ function verifyContent() {
             $verify.className = 'btn-warning';
         }
 
-
         if(lastcommit.verification.reason !== 'valid') {
             var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
                 +'Could not verify authenticity of the content on this page. Reason: '
@@ -60,10 +58,7 @@ function verifyContent() {
             $verify.innerHTML = errorMessage;
             $verify.className = 'btn-warning';
             $message.innerText = errorReasons[lastcommit.verification.reason];
-        }
-
-        else {
-
+        } else {
             // The content seems valid. But we don't want to imply
             // a statement it is. User should remain aware this is
             // still frontend code and that it could be tampered with.
