@@ -1,0 +1,73 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+I, the holder of the OpenPGP key 0x1BD95BD9E18474D1, hereby describes
+the policy I apply when certifying other OpenPGP public keys.
+
+
+Certification levels
+====================
+
+    As per RFC 4880 §5.2.1 [1], User IDs can be certified using four distinct
+    levels, which are dubbed “generic” (level 0x10 in GnuPG manuals), “persona”
+    (level 0x11), “casual” (level 0x12), and “positive” (level 0x13) [1].
+
+    Here is how I appreciate and use these levels, specified by octet in the
+    certification level when signing a key: 
+
+      0x11: Persona certification of a User ID and Public-Key packet.
+        If I have have not done any verification of the claim that the owner
+        of this key is the User ID specified. I rarely sign keys under this
+        level.
+
+      0x12: Casual certification of a User ID and Public-Key packet. 
+        I've done some casual verification of the claim of identity. I use this
+        level if the user does not disclose it's full name in the Public-Key
+        packet, but will sign it under 0x12 if it does contain a photo.
+
+      0x13: Positive certification of a User ID and Public-Key packet.
+        I've done substantial verification of the claim of identity.
+        Including a check of government issued ID, and check of the
+        fingerprint of the Public-Key packet.
+
+        The user may choose conceal irrelevant Personal Identifiable
+        Information (PII) or Sensitive Personal Information (SPI) from it's
+        governemnt ID.  Such as the place of birth, date of birth, and social
+        security number.  With the exception of expire date, photo, and
+        fullname.
+
+
+Signature distribution
+======================
+
+    As an additional method of verification, signatures are only sent encrypted
+    by email to the email address specified by the Public-Key packet. The
+    keyholder is responsible for decrypting the message in order to use, or
+    upload the signature.
+
+
+Trust signatures
+================
+
+    I don’t emit “trust signatures” (RFC 4880 $5.2.3.13).
+
+
+
+[1] http://tools.ietf.org/html/rfc4880#section-5.2.1
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEjdzMdSiCv40DjxuRBVLysjo0FNYFAlyNN8MACgkQBVLysjo0
+FNZzbg//WzisOd5dbTNi4hIIw/Qjp8pOCgkdGg8NkVyU90a4U0+gL1lWkrzRApbf
++D3x7BqSQW4GLugQPnCYEOmOC1ht98j+9iB/W6eSDrezNILdzBbwTBT/g0JeBhCO
+aQEalSIGPLANisgzwyLq6Ij6v1GWEFrGVehoJpWiCz7KR3rdFs0t5nDbWt3EjRd/
+5/WTTHVx5i7DJxzbNImiZ0OIYzky23F7XqpFj6K8s5bdWJMuXxpxUheU/fvG/vWd
+ekmBsvvmbtyZE+bFUYMmUOuBGrkaL7F66LPmf4TRZWKyhPZEw+/9fyBGJZVt3qkT
+gVbr1UuuUY2TCzzIn0w5Uv1N4P9XCiNfJnjsVG0Z2AH8IEA7tk8I5pif+xvdQOSY
+bv87SKsV/S/7V8fhlCdhmQMp8RcVmp5ebv9YZNa+xGCOaQ1JVTo9pD9oGAE4UjkC
+ZNKdGrqOgNBNWYd+qB3ldlmP4OaJLxbEIwRnPUZlZdLLepRTi7YsdH/aXFqi7UWv
+0FOQmsr3KeMY7ElmfJuE3nDjbDujYJDanYbx80SKUVTcFXFgMjGchQLo3A6Wug7D
+fk4UwbwHY3/YgVKnh2HI3ER7YWNaBNgxyf3cqlPUUsSb3g7vL7D7PUdE2BJmbq+6
+hqH4WU2o3c77RYXdMEa/y9EnVePEnv7TIDySl07sfQ0yl1zKlHQ=
+=p+Xu
+-----END PGP SIGNATURE-----
