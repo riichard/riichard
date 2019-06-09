@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I'm too cool for hotspot-wifi-login popups. Here's how to get rid of them
+title: How to get rid of wifi popups
 thumbnail: /images/gtfo.gif
 keywords: [wifi, mobile, hack]
 

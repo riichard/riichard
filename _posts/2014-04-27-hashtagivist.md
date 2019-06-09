@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hashtagivist, Find your hashtags for social justice
+title: Hashtagivist, a tool for finding hashtags for social justice
 thumbnail: /images/hashtagivist.gif
 tags: [ hackathon, hobbyproject, activism ]
 date: 2014-04-27 00:00:00

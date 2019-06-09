@@ -1,17 +1,18 @@
 ---
-title: Introducing Git Slides, a rapid presentation builder tool 
+title: Git Slides, a rapid presentation tool using Markdown and Github Pages
 date: 2015-12-07 08:00:00 
 layout: post 
 thumbnail: /images/powerpoint.gif
 tags: [ github, gitslides, jekyll, presentation, focus, keynote, markdown ]
-
 ---
 
 <div class="col-xs-12 col-md-6 pull-right">
     <div class="thumbnail">
         <img src="../images/powerpoint.gif" />
         <div class="caption">
-            <p>Creating goodlooking presentations in a short amount of time is a pain.</p>
+            <p>Creating goodlooking presentations, with no time is a pain.
+            There's not enough time to structure your story, and visual
+            WYSIWYG distract you from focussing on the content.</p>
         </div>
     </div>
 </div>
