@@ -59,6 +59,9 @@ links:
   - title: Contact
     url: /contact
     external: false
+  - title: RSS
+    url: /feed.xml
+    external: false
   #- title: Press
     #url: /press.html
     #external: false
