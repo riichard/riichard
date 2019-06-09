@@ -5,6 +5,5 @@ _drafts
 .DS_Store
 *.swp
 todo.md
-node_modules
-node_modules/
 images/originals/
+node_modules
