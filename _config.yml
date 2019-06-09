@@ -59,8 +59,8 @@ links:
   - title: Home
     url: /
     external: false
-  - title: Contact guidelines (GPG/PGP)
-    url: /gpg
+  - title: Contact
+    url: /contact
     external: false
   #- title: Press
     #url: /press.html
