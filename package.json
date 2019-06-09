@@ -29,7 +29,9 @@
     "less-plugin-bower-resolve": "^0.1.0"
   },
   "husky": {
-    "pre-commit": "yarn run less"
+    "hooks": {
+      "pre-commit": "yarn run less"
+    }
   },
   "homepage": "http://riichard.com/",
   "dependencies": {
