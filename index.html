@@ -58,15 +58,13 @@ title: Home
                             <img src="{{ post.thumbnail }}" alt="" class="preview" />
                         {% endif %}
 
-                        {% if excerptsize <= 100 and excerptsize >= 50 %}
-                            {{ post.excerpt | strip_html }}
+                        {% if post.description %}
+                            {{ post.description }}
                         {% else %}
-                            {{ post.content | strip_html | truncatewords:100 }}...
+                            {{ post.content | strip_html | truncatewords:50 }}...
                         {% endif %}
-                            <a href="{{ post.url }}"
-                                data-toggle="tooltip"
-                                title="{{ post.description | strip_html }}"
-                                >read more</a>
+
+                            <a href="{{ post.url }}">read more</a>
                         </p>
 
                     </div>
