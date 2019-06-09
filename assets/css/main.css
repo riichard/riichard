@@ -1327,8 +1327,8 @@ h1 small {
 h2 {
   font-size: 26px;
   line-height: 24px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 48px;
+  margin-bottom: 14px;
 }
 h2 small {
   font-size: 18px;
@@ -1394,8 +1394,9 @@ blockquote:before {
   width: 4px;
 }
 .cursive {
-  font-size: 34px;
+  font-size: 24px;
   text-align: center;
+  margin: 48px 0 24px;
 }
 /* - Form elements - */
 select,
@@ -1527,7 +1528,7 @@ code {
   line-height: 1.5em;
 }
 .hyper {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   line-height: 1;
@@ -1587,7 +1588,7 @@ code {
     display: block;
   }
   .hyper {
-    font-size: 60px;
+    font-size: 40px;
   }
   .small-screen-center {
     text-align: center !important;
