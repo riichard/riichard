@@ -6,9 +6,11 @@ title: Contact
 ## In short
 
 ```
-Email: stdin@riichard.com
-Phone: +316147570004
+Email: stdin@riichard.com (see GnuPGP key below)
+Phone: +316147570004 (I prefer Signal over WhatsApp over Text/SMS)
 ```
+
+#### GnuPGP Public key -  [Download my key here](/pubkey.riichard.acs).
 
 -------
 
@@ -65,7 +67,7 @@ sub   rsa4096 2017-03-01 [E]
 Please be aware that my ProtonMail key is different than my GnuPGP key. They
 can both be used, but my preference goes to my own GnuPGP key.
 
-### GnuPGP Public key -  [Download my key here](/pubkey.acs).
+### GnuPGP Public key -  [Download my key here](/pubkey.riichard.acs).
 
 
 [pgpkey]: /pubkey.acs
