@@ -2,10 +2,11 @@
   "name": "riichard.com",
   "version": "0.0.0",
   "description": "Personal blog",
-  "main": "Gruntfile.js",
   "scripts": {
     "less": "lessc --bower-resolve less/main.less assets/css/main.css && cp -r bower_components/font-awesome/fonts assets/",
+    "images": "./convertimages.sh",
     "jekyll": "jekyll serve --watch",
+    "start": "jekyll serve --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
