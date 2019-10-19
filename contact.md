@@ -50,9 +50,6 @@ an encrypted key signature.
 
 I'd appreciate it if you were to return the favor, and upload the signature to a well-trusted key server for our [key statistics][keystatistics].
 
-#### Signing policy
-
-Read more about [my key signing policy here][signingpolicy].
 
 
 ```
@@ -69,6 +66,13 @@ can both be used, but my preference goes to my own GnuPGP key.
 
 ### GnuPGP Public key -  [Download my key here](/pubkey.riichard.acs).
 
+## Signing policy
+
+Inclusion of my key signing policy, [referenced here][signingpolicy].
+
+```
+{% include_relative openpgp-keysigning-policy.txt %}
+```
 
 [pgpkey]: /pubkey.acs
 [gpgtools]: https://gpgtools.org
