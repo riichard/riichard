@@ -34,7 +34,7 @@ owner:
   email:          stdin@riichard.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   twitter:        riichard
-  facebook:       richard.kraayenhagen
+  #facebook:       richard.kraayenhagen
   github:         riichard
   linkedin:       https://www.linkedin.com/in/riichard
   instagram:      riichard
