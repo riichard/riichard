@@ -10,7 +10,7 @@ function resize() {
     convert "${file}" -resize 1600x -quality 90 "${outpath}"
 }
 
-for file in $(find "./images/originals" -type f -name *.jpg); do
+for file in $(find "./images/originals" -type f -name *.jpg -o -name *.jpeg); do
     echo $file
     resize "${file}"
 done
