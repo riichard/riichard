@@ -42,6 +42,7 @@ function verifyContent() {
         var lastcommit = commits.data[0].commit;
         var lastsha = commits.data[0].sha;
 
+
         if(!lastcommit.verification.verified) {
             var errorMessage = '<i class="fa fa-warning" aria-hidden="true"></i> '
                 +'Could not verify authenticity of the content on this page. Latest change was not signed.'
